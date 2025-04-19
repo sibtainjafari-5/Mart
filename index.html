@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JafariMart - Online Shopping</title>
+    <link rel="icon" type="image/jpg" href="/banners/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css_files/styles.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Jafari<span>Mart</span></a>
+            </div>
+            
+            <div class="search-box">
+                <input type="text" placeholder="Search for products...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="user-actions">
+                <a href="login.html"><i class="fas fa-user"></i> Login</a>
+                <a href="#"><i class="fas fa-heart"></i> Wishlist</a>
+                <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Navigation -->
+  <nav class="main-nav">
+    <div class="container">
+        <ul>
+            <li class="categories-item">
+                <a href="categories.html">
+                    <span class="link-text">All Categories</span>
+                    <span class="hover-icons">
+                    </span>
+                </a>
+            </li>
+            <li class="categories-item">
+              <a href="#" class="nav-link">
+                  <span class="link-text">Today's Deals</span>
+                  <span class="hover-icons">
+                  </span>
+              </a>
+          </li>
+            <li><a href="#" class="nav-link">Electronics</a></li>
+            <li><a href="#" class="nav-link">Fashion</a></li>
+            <li><a href="#" class="nav-link">Home & Kitchen</a></li>
+            <li><a href="#" class="nav-link">Beauty</a></li>
+            <li><a href="smartphones.html" class="nav-link">Mobile</a></li>
+            <!-- Other nav items -->
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="categories-sidebar">
+                    <ul>
+                        <li><a href="smartphones.html"><i class="fas fa-mobile-alt"></i> Smartphones</a></li>
+                        <li><a href="laptops.html"><i class="fas fa-laptop"></i> Laptops</a></li>
+                        <li><a href="fashion.html"><i class="fas fa-tshirt"></i> Fashion</a></li>
+                        <li><a href="homeappliances.html"><i class="fas fa-home"></i> Home Appliances</a></li>
+                        <li><a href="gaming.html"><i class="fas fa-gamepad"></i> Gaming</a></li>
+                        <li><a href="audio.html"><i class="fas fa-headphones"></i> Audio</a></li>
+                        <li><a href="books.html"><i class="fas fa-book"></i> Books</a></li>
+                    </ul>
+                </div>
+                
+                <div class="banner-slider">
+                    <div class="banner-slider-track" id="bannerTrack">
+                    <div class="banner active" style="background-image: url('/banners/website\ banner2.jpg')">
+                        <div class="banner-text">
+                            <h2>Summer Sale Up to 70% Off</h2>
+                            <p>On all electronics and fashion items</p>
+                            <a href="#" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="banner active" style="background-image: url('/banners/website\ banner1.jpg')">
+                        <div class="banner-text">
+                            <h2>Summer Sale Up to 70% Off</h2>
+                            <p>On all electronics and fashion items</p>
+                            <a href="categories.html" class="btn">Shop Now</a>
+                        </div>
+                    </div>  
+                    <div class="banner active" style="background-image: url('/banners/website\ banner3.jpg')">
+                        <div class="banner-text">
+                            <h2>Summer Sale Up to 70% Off</h2>
+                            <p>On all electronics and fashion items</p>
+                            <a href="categories.html" class="btn">Shop Now</a>
+                        </div>
+                    </div>
+                    <!-- Additional banners would go here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Deals of the Day -->
+    <section class="deals-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Deals of the Day</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">-15%</div>
+                    <img src="/products/airpods-pro.jpg" style="object-fit: fill;" alt="Product">
+                    <h3>Wireless Bluetooth Earbuds</h3>
+                    <div class="price">
+                        <span class="current-price">$34.99</span>
+                        <span class="old-price">$49.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(125)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-badge">-10%</div>
+                    <img src="/products/airpods-pro.jpg" alt="Product">
+                    <h3>Smart Fitness Band (Waterproof)</h3>
+                    <div class="price">
+                        <span class="current-price">$29.99</span>
+                        <span class="old-price">$39.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(125)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                  <div class="product-badge">-08%</div>
+                  <img src="/products/galaxy-s23.jpg" alt="Product">
+                  <h3>Stainless Steel Electric Kettle – 1.7L</h3>
+                  <div class="price">
+                      <span class="current-price">$21.99</span>
+                      <span class="old-price">$29.99</span>
+                  </div>
+                  <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <span>(125)</span>
+                  </div>
+                  <button class="add-to-cart">Add to Cart</button>
+              </div>  
+
+              <div class="product-card">
+                <div class="product-badge">-20%</div>
+                <img src="/products/laser-printer.jpg" alt="Product">
+                <h3>Men’s Casual Watch – Leather Strap</h3>
+                <div class="price">
+                    <span class="current-price">$39.99</span>
+                    <span class="old-price">$59.99</span>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(125)</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>                
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">-07%</div>
+                    <img src="/products/airpods-pro.jpg" style="object-fit: fill;" alt="Product">
+                    <h3>Mini Portable Speaker (Wireless)</h3>
+                    <div class="price">
+                        <span class="current-price">$17.99</span>
+                        <span class="old-price">$24.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(125)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-badge">-05%</div>
+                    <img src="/products/airpods-pro.jpg" alt="Product">
+                    <h3>Makeup Brush Set – 12 Pieces</h3>
+                    <div class="price">
+                        <span class="current-price">$14.99</span>
+                        <span class="old-price">$19.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(125)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                  <div class="product-badge">-12%</div>
+                  <img src="/products/galaxy-s23.jpg" alt="Product">
+                  <h3>Phone Tripod Stand with Bluetooth Remote</h3>
+                  <div class="price">
+                      <span class="current-price">$22.99</span>
+                      <span class="old-price">$34.99</span>
+                  </div>
+                  <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <span>(125)</span>
+                  </div>
+                  <button class="add-to-cart">Add to Cart</button>
+              </div>                
+              <div class="product-card">
+                <div class="product-badge">-14%</div>
+                <img src="/products/laser-printer.jpg" alt="Product">
+                <h3>USB Fast Charging Power Bank – 10000mAh</h3>
+                <div class="price">
+                    <span class="current-price">$30.99</span>
+                    <span class="old-price">$44.99</span>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(125)</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>                
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Sections -->
+    <section class="category-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Top Categories</h2>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="/products/electronics.jpeg" alt="Electronics">
+                    <h3>Electronics</h3>
+                </div>
+                
+                <div class="category-card">
+                    <img src="/products/fashion.jpeg" alt="Fashion">
+                    <h3>Fashion</h3>
+                </div>
+                
+                <div class="category-card">
+                    <img src="/products/homeappliances.jpeg" alt="Home">
+                    <h3>Home & Kitchen</h3>
+                </div>
+            </div>
+
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Lifestyle& Hobbies">
+                    <h3>Lifestyle & Hobbies</h3>
+                </div>
+                
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Deals & Discounts">
+                    <h3>Deals & Discounts</h3>
+                </div>
+                
+                <div class="category-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Wholesales & Bulk Deals">
+                    <h3>Wholesales & Bulk Deals</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Summer Deals -->
+        <section class="deals-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Summer Deals</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-badge">-10%</div>
+                        <img src="/products/airpods-pro.jpg" style="object-fit: fill;" alt="Product">
+                        <h3>UV Protection Sunglasses</h3>
+                        <div class="price">
+                            <span class="current-price">$19.99</span>
+                            <span class="old-price">$29.00</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(125)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-badge">-06%</div>
+                        <img src="/products/airpods-pro.jpg" alt="Product">
+                        <h3>Portable Mini Fan – USB Rechargeable</h3>
+                        <div class="price">
+                            <span class="current-price">$13.99</span>
+                            <span class="old-price">$19.99</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(125)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                      <div class="product-badge">-15%</div>
+                      <img src="/products/galaxy-s23.jpg" alt="Product">
+                      <h3>Lightweight Cotton T-Shirts – Pack of 3</h3>
+                      <div class="price">
+                          <span class="current-price">$16.99</span>
+                          <span class="old-price">$24.99</span>
+                      </div>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span>(125)</span>
+                      </div>
+                      <button class="add-to-cart">Add to Cart</button>
+                  </div>                
+                  <div class="product-card">
+                    <div class="product-badge">-08%</div>
+                    <img src="/products/laser-printer.jpg" alt="Product">
+                    <h3>Beach Mat Foldable with Carry Bag</h3>
+                    <div class="price">
+                        <span class="current-price">$16.99</span>
+                        <span class="old-price">$24.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(125)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>                
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-badge">-04%</div>
+                        <img src="/products/airpods-pro.jpg" style="object-fit: fill;" alt="Product">
+                        <h3>Sunscreen SPF 50+ – 100ml</h3>
+                        <div class="price">
+                            <span class="current-price">$12.99</span>
+                            <span class="old-price">$19.99</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(125)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-badge">-12%</div>
+                        <img src="/products/airpods-pro.jpg" alt="Product">
+                        <h3>Insulated Water Bottle – 1L</h3>
+                        <div class="price">
+                            <span class="current-price">$22.99</span>
+                            <span class="old-price">$34.99</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(125)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                      <div class="product-badge">-18%</div>
+                      <img src="/products/galaxy-s23.jpg" alt="Product">
+                      <h3>Cooling Gel Pillow – Summer Comfort</h3>
+                      <div class="price">
+                          <span class="current-price">$31.99</span>
+                          <span class="old-price">$4</span>
+                      </div>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span>(125)</span>
+                      </div>
+                      <button class="add-to-cart">Add to Cart</button>
+                  </div>                
+                  <div class="product-card">
+                    <div class="product-badge">-07%</div>
+                    <img src="/products/laser-printer.jpg" alt="Product">
+                    <h3>Summer Flip-Flops (Men/Women)</h3>
+                    <div class="price">
+                        <span class="current-price">$12.99</span>
+                        <span class="old-price">$19.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(125)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>                
+                </div>
+            </div>
+        </section>
+
+        <!-- Just For You -->
+        <section class="deals-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Just For You</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-badge">-10%</div>
+                        <img src="/products/airpods-pro.jpg" style="object-fit: fill;" alt="Product">
+                        <h3>Personalized Leather Wallet</h3>
+                        <div class="price">
+                            <span class="current-price">$29.99</span>
+                            <span class="old-price">$39.99</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(125)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-badge">-07%</div>
+                        <img src="/products/airpods-pro.jpg" alt="Product">
+                        <h3>Scented Candle Set – Relaxation Edition</h3>
+                        <div class="price">
+                            <span class="current-price">$17.99</span>
+                            <span class="old-price">$24.99</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(125)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                      <div class="product-badge">-15%</div>
+                      <img src="/products/galaxy-s23.jpg" alt="Product">
+                      <h3>Custom Name Necklace – Gold Plated</h3>
+                      <div class="price">
+                          <span class="current-price">$34.99</span>
+                          <span class="old-price">$49.99</span>
+                      </div>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span>(125)</span>
+                      </div>
+                      <button class="add-to-cart">Add to Cart</button>
+                  </div>                
+                  <div class="product-card">
+                    <div class="product-badge">-13%</div>
+                    <img src="/products/laser-printer.jpg" alt="Product">
+                    <h3>Bluetooth Sleep Headphones</h3>
+                    <div class="price">
+                        <span class="current-price">$31.99</span>
+                        <span class="old-price">$44.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(125)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>                
+                </div>
+            </div>
+    
+            <div class="container">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-badge">-20%</div>
+                        <img src="/products/airpods-pro.jpg" style="object-fit: fill;" alt="Product">
+                        <h3>Luxury Skincare Gift Box</h3>
+                        <div class="price">
+                            <span class="current-price">$39.99</span>
+                            <span class="old-price">$59.99</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(125)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-badge">-09%</div>
+                        <img src="/products/airpods-pro.jpg" alt="Product">
+                        <h3>Smart Mug Warmer for Desk Use</h3>
+                        <div class="price">
+                            <span class="current-price">$25.99</span>
+                            <span class="old-price">$34.99</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(125)</span>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                      <div class="product-badge">-08%</div>
+                      <img src="/products/galaxy-s23.jpg" alt="Product">
+                      <h3>Touch Control LED Night Light</h3>
+                      <div class="price">
+                          <span class="current-price">$19.99</span>
+                          <span class="old-price">$27.99</span>
+                      </div>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                          <span>(125)</span>
+                      </div>
+                      <button class="add-to-cart">Add to Cart</button>
+                  </div>                
+                  <div class="product-card">
+                    <div class="product-badge">-05%</div>
+                    <img src="/products/laser-printer.jpg" alt="Product">
+                    <h3>Minimalist Notebook Set – 3 Pack</h3>
+                    <div class="price">
+                        <span class="current-price">$09.99</span>
+                        <span class="old-price">$14.99</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(125)</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>                
+                </div>
+            </div>
+        </section>
+
+        <div class="payment-verification-container">
+            <div class="payment-methods">
+              <h4>Payment Methods</h4>
+              <div class="payment-icons">
+                <img src="/payment/cashondelivery.jpg" alt="Cash on Delivery" />
+                <img src="/payment/visa.png" alt="Visa" />
+                <img src="/payment/mastercard.png" alt="MasterCard" />
+                <img src="/payment/easypaisa.png" alt="Easypaisa" />
+                <img src="/payment/wallet.png" alt="jafari Wallet" />
+                <img src="/payment/jazzcash.png" alt="JazzCash" />
+                <img src="/payment/unionpay.png" alt="UnionPay" />
+                <img src="/payment/hbl.png" alt="HBL" />
+                <img src="/payment/installments.jpg" alt="Easy Monthly Installments" />
+              </div>
+            </div>
+            <div class="verified-by">
+              <h4>Verified by</h4>
+              <img src="/affiliation/pcidss.png" alt="PCI DSS Verified" class="pci-icon" />
+            </div>
+          </div>
+
+          <div class="international-social-footer">
+            <div class="international-section">
+              <h4>JafariMart International</h4>
+              <div class="country-flags">
+                <div><img src="/international/pakistan.png" alt="Pakistan Flag" /> Pakistan</div>
+                <div><img src="/international/iran.png" alt="Iran Flag" /> Iran</div>
+                <div><img src="/international/nigeria.png" alt="Nigeria Flag" /> Nigeria</div>
+                <div><img src="/international/bangladesh.png" alt="Bangladesh Flag" /> Bangladesh</div>
+                <div><img src="/international/afghanistan.jpg" alt="Afghanistan Flag" /> Afghanistan</div>
+              </div>
+            </div>
+            <div class="copyright">
+                © JafariMart 2025
+              </div>
+          </div>
+          
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>JafariMart</h4>
+                    <p>Your one-stop shop for all your needs</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Help & Contact</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Returns & Refunds</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fas fa-globe"></i></a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/javascript/login.js"></script>
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/categories.js"></script>
+</body>
+</html>
